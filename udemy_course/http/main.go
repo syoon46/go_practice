@@ -10,7 +10,7 @@ import (
 type logWriter struct{}
 
 func main() {
-	resp, err := http.Get("http://avsee09.tv")
+	resp, err := http.Get("http://amazon.com")
 
 	if err != nil {
 		fmt.Println("Error:", err)
